@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Created-By: 1.8.0_65 (Oracle Corporation 25.65-b01)
+Built-By: Eclipse Plugin for ThingWorx Extension Development 7.1.0.201
+ 604182004
+Build-Date: Fri Sep 30 15:20:48 CAT 2016
+
+Name: 1worxtwitterstream
+Package-Title: 1worxtwitterstream
+Package-Version: 1.0.0
+Package-Vendor: 
+

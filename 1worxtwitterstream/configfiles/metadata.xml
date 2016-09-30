@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entities>
+    <ExtensionPackages>
+        <ExtensionPackage dependsOn="" description="Twitter plugin by 1Worx" minimumThingWorxVersion="7.1.0" name="1WorxTwitterStream" packageVersion="1.0.0" vendor="1Worx">
+            <JarResources>
+                <FileResource description="" file="1worxtwitterstream.jar" type="JAR"/>
+                <FileResource description="" file="twitter4j-async-4.0.4.jar" type="JAR"/>
+                <FileResource description="" file="twitter4j-core-4.0.4.jar" type="JAR"/>
+                <FileResource description="" file="twitter4j-stream-4.0.4.jar" type="JAR"/>
+            </JarResources>
+        </ExtensionPackage>
+    </ExtensionPackages>
+    <ThingPackages>
+        <ThingPackage className="TwitterStreamTemplate" description="" name="TwitterStreamTemplatePackage"/>
+    </ThingPackages>
+    <ThingTemplates>
+        <ThingTemplate aspect.isEditableExtensionObject="true" description="" name="TwitterStreamTemplate" thingPackage="TwitterStreamTemplatePackage"/>
+    </ThingTemplates>
+</Entities>
